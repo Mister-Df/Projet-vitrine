@@ -1,0 +1,59 @@
+{
+    "meubles" : [
+        {
+            "id" : 1,
+            "img" : "Déco Minimaliste",
+            "name" : "Decor Minimaliste",
+            "price" : 2540,
+            "reduction" : "50% off",
+            "date" :[
+                {
+                    "session" : "30 : 10 : 30 : 58",
+                    "lettre" : "Days : Heurs : Mins : sec"
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "img" : "Idées Déco _ Courbes",
+            "name" : "Decor courbe",
+            "price" : 4040,
+            "reduction" : "10% off",
+            "date" :[
+                {
+                    "session" : "30 : 10 : 30 : 58",
+                    "lettre" : "Days : Heurs : Mins : sec"
+                }
+            ]
+
+        },
+        {
+            "id" : 3,
+            "img" : "Meuble Tv",
+            "name" : "Meuble Tv",
+            "price" : 3540,
+            "reduction" : "50% off",
+            "date" :[
+                {
+                    "session" : "04 : 12 : 00 : 20",
+                    "lettre" : "Days : Heurs : Mins : sec"
+                }
+            ]
+
+        },
+        {
+            "id" : 4,
+            "img" : "Reception Sets",
+            "name" : "Reception set",
+            "price" : 1040,
+            "reduction" : "20% off",
+            "date" :[
+                {
+                    "session" : "08 : 11 : 10 : 00",
+                    "lettre" : "Days : Heurs : Mins : sec"
+                }
+            ]
+
+        }
+    ]
+}
