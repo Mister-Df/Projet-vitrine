@@ -4,6 +4,7 @@ import { IoSearch } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { FcLike } from "react-icons/fc";
 import { GoPerson } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -15,22 +16,22 @@ export default function Navbar() {
         <div className='flex-10'>
           <ul className='flex list-unstyled  gap-3 justify-center'>
             <li className='nav-item '>
-              <a className='text-decoration-none text-dark text-[14px]' href="">Home</a>
+              <Link to={'/'} className='text-decoration-none text-dark text-[14px]' href="">Home</Link>
             </li>
             <li className='nav-item '>
-              <a className='text-decoration-none text-dark text-[14px]' href="">Shop</a>
+              <Link to={'/shop'} className='text-decoration-none text-dark text-[14px]'>Shop</Link>
             </li>
             <li className='nav-item'>
-              <a className='text-decoration-none text-dark text-[14px]' href="">Categories</a>
+              <Link to={'/categories'} className='text-decoration-none text-dark text-[14px]'>Categories</Link>
             </li>
             <li className='nav-item'>
-              <a className='text-decoration-none text-dark text-[14px]' href="">About us</a>
+              <Link to={'/about'} className='text-decoration-none text-dark text-[14px]' href="">About us</Link>
             </li>
             <li className='nav-item'>
-              <a className='text-decoration-none text-dark text-[14px]' href="">Contact</a>
+              <Link to={'/contact'} className='text-decoration-none text-dark text-[14px]'>Contact</Link>
             </li>
             <li className='nav-item'>
-              <a className='text-decoration-none text-dark text-[14px]' href="">Blog</a>
+              <Link to={'/blog'} className='text-decoration-none text-dark text-[14px]'>Blog</Link>
             </li>
           </ul>
         </div>
